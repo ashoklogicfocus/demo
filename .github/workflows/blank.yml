@@ -5,7 +5,7 @@ push:
  branches
  - master
  - develop
- jobs
+ jobs:
  test:
    name: running Units tests
   - runs-on: linux-latest
