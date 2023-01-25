@@ -19,6 +19,14 @@ push:
    run: npm install
    - name: test
    run: npm test
+   
+   - name: Download a Build Artifact
+  uses: actions/download-artifact@v3.0.2
+  with:
+    # Artifact name
+    name: # optional
+    # Destination path
+    path: # optional
  
  
   
