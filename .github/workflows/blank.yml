@@ -7,8 +7,8 @@ push:
  - develop
  jobs
  test:
- name: running Units tests
-  runs-on:  ununtu-latest
+  - name: running Units tests
+  - runs-on:  ununtu-latest
   steps:
   - uses: action/checkout@v1
   - name: Use Node.js ${{matrix.node-version }}
